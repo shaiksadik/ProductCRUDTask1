@@ -1,0 +1,12 @@
+server:
+  port: 8678
+spring:
+  datasource:
+    url :  mg.chmrxyylsgmh.ap-south-1.rds.amazonaws.com:5432/online_exam
+    username : postgres 
+    password : mobigesture
+  jpa:
+    show-sql: true
+    properties:      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        ddl-auto: update 
